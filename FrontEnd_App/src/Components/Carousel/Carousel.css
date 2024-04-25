@@ -1,0 +1,34 @@
+.carousel {
+    top: 80px;
+    max-height: 90vh;
+    width: 100%;
+    position: static !important;
+}
+
+.carousel-container {
+    top: -37px;
+    position: relative;
+    height: auto;
+    max-height: 90vh;
+}
+.carousel-loader  {
+justify-content: center;
+margin-top: 100px;
+}
+.carousel-loader #loader {
+    z-index: 100;
+}
+
+
+.carousel-inner {
+    height: inherit !important;
+    width: inherit !important;
+}
+
+
+.carousel-item {
+    height: inherit !important;
+}
+.carousel-img{
+    max-height: 90vh;
+}

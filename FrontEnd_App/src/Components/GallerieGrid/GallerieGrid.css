@@ -1,0 +1,21 @@
+.grid-container{
+ columns: 2;
+    column-gap: 15px;
+    width: 100%;
+    padding: 15px;
+}
+
+.grid-container img {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .grid-container {
+        columns: 1;
+        margin-top: 200px;
+    }
+}

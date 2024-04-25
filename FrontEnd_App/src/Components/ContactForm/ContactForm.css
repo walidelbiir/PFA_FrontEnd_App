@@ -1,0 +1,60 @@
+.input-container {
+    justify-content: space-between;
+}
+
+.container {
+    width: 35% !important;
+}
+.form-control:active{
+    box-shadow:  0 0 0 0.25em rgba(33, 37, 41,.5);
+    border-color: rgb(33, 37, 41);
+}
+.form-control:focus{
+    border-color:  rgba(198, 173, 36,.5) !important;
+    box-shadow: 0 0 0 .25rem  rgba(198, 173, 36,.5)!important;
+}
+
+@media only screen and (max-width: 768px) {
+    .container{
+        width: 75%!important;
+    }
+}
+
+.sent {
+    background-color: rgb(42, 209, 42) !important;
+    border-color: rgb(42, 209, 42) !important;
+}
+
+.invisible {
+    visibility: collapse;
+}
+
+.select-container {
+    flex-direction: column;
+    
+}
+
+#date {
+    align-self: flex-start;
+}
+
+.no-height {
+    height: 0px !important;
+}
+
+.button-container {
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+
+
+.formstatus {
+    font-size: 1em !important;
+}
+
+.submit {
+    background-color: rgb(33, 37, 41) !important;
+    border-color: #C6AD24 !important;
+    border-width: 3px !important;
+}
